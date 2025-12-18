@@ -1,0 +1,57 @@
+.top-bar{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+
+  align-items: center;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+}
+
+.slop-txt{
+  flex: 2;
+  font-family: 'Roboto';
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 5px;
+
+}
+
+.search-bar{
+  width:100%;
+  max-width:  800px;
+  min-width: 100px;
+  margin-right: 5px;
+  font-family: 'Roboto';
+}
+
+.send-button{
+ margin-right: 20px;
+}
+
+.chat-container{
+  margin-right: 10px;
+  margin-left: 10px ;
+  display: flex;
+  flex-direction: column;
+}
+.ai-text{
+  background-color: rgba(253, 164, 0, 0.836);
+  width: fit-content;
+  align-self: flex-start;
+  font-family: 'Roboto';
+  padding: 6px;
+  border-radius: 10px;
+  color: white;
+}
+
+.user-text{
+  background-color: rgba(0, 135, 253, 0.726);
+  width: fit-content;
+  align-self: flex-end;
+  font-family: 'Roboto';
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}

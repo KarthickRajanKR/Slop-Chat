@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Slop Chat</title>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
-<body> 
 
-  <input id="prompt_input" type="text">
-  <button id="send_button" onclick="aiResponse()">SEND</button>
-
-  <p id="chat_txt"></p>
+<body>
+  <div class="top-bar">
+    <h1 class="slop-txt">SLOP</h1>
+    <div style="flex: 8; display: flex; flex-direction: row;">
+    <input id="prompt_input" type="text" placeholder="Ask Slop" class="search-bar">
+    <button id="send_button" onclick="fetchData()" class="send-button">SEND</button>
+    </div>
+  </div>
+  <div class = 'chat-container' id = "chat-container">
+     <p style="margin-top: 80px;"></p>
+  </div>
+ 
 
   <script src="slop-chat.js"></script>
 </body>
+
 </html>
