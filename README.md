@@ -6,7 +6,7 @@ able to interect with my hosted LLM model in my pc.
 
 ![slop chat](https://github.com/user-attachments/assets/75e17c36-3cfb-439e-9e51-3ffb7addf9e5)
 
-I created this project to interact with my local LLM models which are in my pc, either locally on the same machine or remotely over a private virtual network.
+I created this project to interact with my local LLM models which runs in my pc, either locally on the same machine or remotely over a private virtual network.
 
 
 
