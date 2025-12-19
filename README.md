@@ -2,7 +2,7 @@
 
 Slop Chat is a private, self-hosted LLM chat website/application built using Node.js and Ollama.
 It can be run locally or hosted over ZeroTier to allow access across multiple devices such as Android phones, PCs, and laptops.
-able to interect with my hosted LLM model in my pc.
+able to interect with my hosted LLM model.
 
 ![slop chat](https://github.com/user-attachments/assets/75e17c36-3cfb-439e-9e51-3ffb7addf9e5)
 
